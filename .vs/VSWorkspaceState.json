@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\NumberGuesser",
+    "\\NumberGuesser\\bin",
+    "\\NumberGuesser\\obj",
+    "\\NumberGuesser\\obj\\Debug\\TempPE",
+    "\\NumberGuesser\\Properties"
   ],
+  "SelectedNode": "\\NumberGuesser\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
