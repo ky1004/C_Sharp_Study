@@ -1,0 +1,7 @@
+C:\Users\JYPark\Desktop\깃허브\C-Study\NumberGuesser\bin\Debug\NumberGuesser.exe.config
+C:\Users\JYPark\Desktop\깃허브\C-Study\NumberGuesser\bin\Debug\NumberGuesser.exe
+C:\Users\JYPark\Desktop\깃허브\C-Study\NumberGuesser\bin\Debug\NumberGuesser.pdb
+C:\Users\JYPark\Desktop\깃허브\C-Study\NumberGuesser\obj\Debug\NumberGuesser.csprojAssemblyReference.cache
+C:\Users\JYPark\Desktop\깃허브\C-Study\NumberGuesser\obj\Debug\NumberGuesser.csproj.CoreCompileInputs.cache
+C:\Users\JYPark\Desktop\깃허브\C-Study\NumberGuesser\obj\Debug\NumberGuesser.exe
+C:\Users\JYPark\Desktop\깃허브\C-Study\NumberGuesser\obj\Debug\NumberGuesser.pdb
