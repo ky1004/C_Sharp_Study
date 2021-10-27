@@ -56,6 +56,21 @@ namespace NumberGuesser
                // Get users input
                string input = Console.ReadLine();
 
+               // Make sure its a number
+               if(!int.TryParse(input, out guess)){
+                    // Change text color
+                    Console.ForegroundColor = ConsoleColor.Red;
+
+                    // Tell user Its not a number
+                    Console.WriteLine("Enter an actual number");
+    
+                    // Reset text color
+                    Console.ResetColor();
+                    
+                    // Keep going
+                    continue;
+               }
+
                // Cast to int and put in guess
                guess = Int32.Parse(input);
 
