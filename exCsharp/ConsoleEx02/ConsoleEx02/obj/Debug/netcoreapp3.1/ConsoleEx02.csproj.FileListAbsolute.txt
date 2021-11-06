@@ -1,0 +1,16 @@
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx02\ConsoleEx02\bin\Debug\netcoreapp3.1\ConsoleEx02.exe
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx02\ConsoleEx02\bin\Debug\netcoreapp3.1\ConsoleEx02.deps.json
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx02\ConsoleEx02\bin\Debug\netcoreapp3.1\ConsoleEx02.runtimeconfig.json
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx02\ConsoleEx02\bin\Debug\netcoreapp3.1\ConsoleEx02.runtimeconfig.dev.json
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx02\ConsoleEx02\bin\Debug\netcoreapp3.1\ConsoleEx02.dll
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx02\ConsoleEx02\bin\Debug\netcoreapp3.1\ConsoleEx02.pdb
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx02\ConsoleEx02\obj\Debug\netcoreapp3.1\ConsoleEx02.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx02\ConsoleEx02\obj\Debug\netcoreapp3.1\ConsoleEx02.Calculator.resources
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx02\ConsoleEx02\obj\Debug\netcoreapp3.1\ConsoleEx02.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx02\ConsoleEx02\obj\Debug\netcoreapp3.1\ConsoleEx02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx02\ConsoleEx02\obj\Debug\netcoreapp3.1\ConsoleEx02.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx02\ConsoleEx02\obj\Debug\netcoreapp3.1\ConsoleEx02.AssemblyInfo.cs
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx02\ConsoleEx02\obj\Debug\netcoreapp3.1\ConsoleEx02.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx02\ConsoleEx02\obj\Debug\netcoreapp3.1\ConsoleEx02.dll
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx02\ConsoleEx02\obj\Debug\netcoreapp3.1\ConsoleEx02.pdb
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx02\ConsoleEx02\obj\Debug\netcoreapp3.1\ConsoleEx02.genruntimeconfig.cache
