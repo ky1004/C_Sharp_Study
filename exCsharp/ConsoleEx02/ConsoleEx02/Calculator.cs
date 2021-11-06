@@ -55,8 +55,31 @@ namespace ConsoleEx02
             return sum;
         }
 
+        public float Add2(float number1, float number2)
+        {
+            float sum = number1 + number2;
+            return sum;
+        }
+
+        public int Sub(int number1, int number2)
+        {
+            int sub = number1 - number2;
+            return sub;
+        }
+
+        // 클래스에 속한 함수를 메서드라고 한다
+
+        // 같은 이름의 function이 있을 수는 있지만 같은 매개변수를 가진 function은 있을 수 없다
+        // 같은 이름의 함수는 있을 수 있으며, 매개변수가 다름 (오버로딩)
+        //public void Flush(Number1);
+        //public void Flush(Number2);
+        //public void Flush(Number1,Number2);
+        //public void Flush();
+
+
+
+
     }
 
-    // 클래스에 속한 함수를 메서드라고 한다
 
 }
