@@ -23,21 +23,63 @@ namespace ConsoleEx02
             TLabel.Text = "안녕 C#";
 
             // 변수선언
-            int num1 = 8;
-            string operat1 = "+";
-            bool isCorrect = false;
+            //int num1 = 8;
+            //string operat1 = "+";
+            //bool isCorrect = false;
 
-            int num2 = 4;
+            //int num2 = 4;
 
-            int sum = num1 + num2;
-            TLabel.Text = sum.ToString();
+            //int sum = num1 + num2;
+            //TLabel.Text = sum.ToString();
         }
 
         private void SumNum_Click(object sender, EventArgs e)
         {
+
+            int num1 = 0;
+            int num2 = 0;
+
+            // number1의 텍스트가 빈문자열이면 실행
+            // String.IsNullOrWhiteSpace()을 사용하면 Null값이거나 Whitespace일 경우까지 예외조건을 걸어줄 수 있다
+            if (String.IsNullOrWhiteSpace(number1.Text))
+            {
+                MessageBox.Show("첫번째 숫자를 넣어주세요.");
+                number1.Focus();
+                return;
+            }
+
+
+            // int형으로 바꿈, 리턴이 bool형
+            // 하나는 string, 다른 하나는 out int
+            // 숫자로 바꿀 매개변수를 두번째에 넣는다
+            if(int.TryParse(number1.Text, out num1) == false)
+            {
+                MessageBox.Show("첫번째에 문자가 들어왔습니다. 숫자를 입력해주세요.");
+                // SelectAll : number1의 상태가 스크롤선택 상태
+                // Focus : number1에 커서가 놓여있는 상태
+                number1.SelectAll();
+                number1.Focus();
+                return;
+            }
+
+
+            // String.IsNullOrWhiteSpace(number2.Text)를 쓰지 않았기 때문에 공백 입력 시 에러가 나온다
+            if (number2.Text == "")
+            {
+                MessageBox.Show("두번째 숫자를 넣어주세요.");
+                return;
+            }
+
+            if (int.TryParse(number2.Text, out num2) == false)
+            {
+                MessageBox.Show("두번째에 문자가 들어왔습니다. 숫자를 입력해주세요.");
+                return;
+            }
+
+
             // convert.Toint32 --> number1텍스트박스를 형변환해서 넣어준다
-            int num1 = Convert.ToInt32(number1.Text);
-            int num2 = Convert.ToInt32(number2.Text);
+            //num1 = Convert.ToInt32(number1.Text);
+            //num2 = Convert.ToInt32(number2.Text);
 
             // int sum = num1 + num2;
             int sum = Add(num1, num2);
