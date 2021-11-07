@@ -17,10 +17,15 @@ namespace ConsoleEx02
             InitializeComponent();
         }
 
+        public bool HasValue()
+        {
+            return true;
+        }
+
         private void TLabel_Click(object sender, EventArgs e)
         {
             // TLabel을 클릭했을 때 해당 메시지로 출력
-            TLabel.Text = "안녕 C#";
+            //TLabel.Text = "안녕 C#";
 
             // 변수선언
             //int num1 = 8;
