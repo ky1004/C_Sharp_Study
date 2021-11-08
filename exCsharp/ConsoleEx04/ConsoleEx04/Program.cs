@@ -17,7 +17,7 @@ namespace ConsoleEx04
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ConsoleEx04());
+            Application.Run(new Calculator());
         }
     }
 }

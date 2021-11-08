@@ -41,6 +41,9 @@ namespace ConsoleEx04
             this.NumButton7 = new System.Windows.Forms.Button();
             this.NumButton8 = new System.Windows.Forms.Button();
             this.NumButton9 = new System.Windows.Forms.Button();
+            this.NumSub = new System.Windows.Forms.Button();
+            this.NumClear = new System.Windows.Forms.Button();
+            this.NumEql = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // NumButton1
@@ -103,6 +106,7 @@ namespace ConsoleEx04
             this.NumButton0.TabIndex = 1;
             this.NumButton0.Text = "0";
             this.NumButton0.UseVisualStyleBackColor = true;
+            this.NumButton0.Click += new System.EventHandler(this.NumButton1_Click);
             // 
             // NumButton4
             // 
@@ -164,6 +168,36 @@ namespace ConsoleEx04
             this.NumButton9.UseVisualStyleBackColor = true;
             this.NumButton9.Click += new System.EventHandler(this.NumButton1_Click);
             // 
+            // NumSub
+            // 
+            this.NumSub.Location = new System.Drawing.Point(223, 176);
+            this.NumSub.Name = "NumSub";
+            this.NumSub.Size = new System.Drawing.Size(53, 53);
+            this.NumSub.TabIndex = 3;
+            this.NumSub.Text = "-";
+            this.NumSub.UseVisualStyleBackColor = true;
+            this.NumSub.Click += new System.EventHandler(this.NumAdd_Click);
+            // 
+            // NumClear
+            // 
+            this.NumClear.Location = new System.Drawing.Point(223, 117);
+            this.NumClear.Name = "NumClear";
+            this.NumClear.Size = new System.Drawing.Size(53, 53);
+            this.NumClear.TabIndex = 3;
+            this.NumClear.Text = "C";
+            this.NumClear.UseVisualStyleBackColor = true;
+            this.NumClear.Click += new System.EventHandler(this.NumClear_Click);
+            // 
+            // NumEql
+            // 
+            this.NumEql.Location = new System.Drawing.Point(223, 297);
+            this.NumEql.Name = "NumEql";
+            this.NumEql.Size = new System.Drawing.Size(53, 53);
+            this.NumEql.TabIndex = 3;
+            this.NumEql.Text = "=";
+            this.NumEql.UseVisualStyleBackColor = true;
+            this.NumEql.Click += new System.EventHandler(this.NumAdd_Click);
+            // 
             // Calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -172,6 +206,9 @@ namespace ConsoleEx04
             this.Controls.Add(this.NumButton9);
             this.Controls.Add(this.NumButton6);
             this.Controls.Add(this.NumButton3);
+            this.Controls.Add(this.NumClear);
+            this.Controls.Add(this.NumSub);
+            this.Controls.Add(this.NumEql);
             this.Controls.Add(this.NumAdd);
             this.Controls.Add(this.NumScreen);
             this.Controls.Add(this.NumButton0);
@@ -201,6 +238,9 @@ namespace ConsoleEx04
         private System.Windows.Forms.Button NumButton7;
         private System.Windows.Forms.Button NumButton8;
         private System.Windows.Forms.Button NumButton9;
+        private System.Windows.Forms.Button NumSub;
+        private System.Windows.Forms.Button NumClear;
+        private System.Windows.Forms.Button NumEql;
     }
 }
 

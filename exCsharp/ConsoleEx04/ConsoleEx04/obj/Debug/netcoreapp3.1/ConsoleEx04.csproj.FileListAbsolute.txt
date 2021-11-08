@@ -5,3 +5,12 @@ C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx04\ConsoleEx04\obj
 C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx04\ConsoleEx04\obj\Debug\netcoreapp3.1\ConsoleEx04.AssemblyInfoInputs.cache
 C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx04\ConsoleEx04\obj\Debug\netcoreapp3.1\ConsoleEx04.AssemblyInfo.cs
 C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx04\ConsoleEx04\obj\Debug\netcoreapp3.1\ConsoleEx04.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx04\ConsoleEx04\bin\Debug\netcoreapp3.1\ConsoleEx04.exe
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx04\ConsoleEx04\bin\Debug\netcoreapp3.1\ConsoleEx04.deps.json
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx04\ConsoleEx04\bin\Debug\netcoreapp3.1\ConsoleEx04.runtimeconfig.json
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx04\ConsoleEx04\bin\Debug\netcoreapp3.1\ConsoleEx04.runtimeconfig.dev.json
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx04\ConsoleEx04\bin\Debug\netcoreapp3.1\ConsoleEx04.dll
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx04\ConsoleEx04\bin\Debug\netcoreapp3.1\ConsoleEx04.pdb
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx04\ConsoleEx04\obj\Debug\netcoreapp3.1\ConsoleEx04.dll
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx04\ConsoleEx04\obj\Debug\netcoreapp3.1\ConsoleEx04.pdb
+C:\Users\admin\Desktop\Github\C_Sharp_Study\exCsharp\ConsoleEx04\ConsoleEx04\obj\Debug\netcoreapp3.1\ConsoleEx04.genruntimeconfig.cache

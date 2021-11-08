@@ -10,14 +10,26 @@ using System.Windows.Forms;
 
 namespace ConsoleEx04
 {
+    // enum 열거형 데이터 타입 정의
+    //public enum Season { Spring, Summer, Fall, Winter }
+
+    public enum Operators { Add, Sub, Mul, Div }
+
     public partial class Calculator : Form
     {
         public int Result = 0;
         // 새로운 숫자의 입력의 시작
         public bool isNewNum = true;
+
+        public Operators Opt = Operators.Add;
         public Calculator()
         {
             InitializeComponent();
+
+            // 변수에 값을 저장하는 형태는 같다
+            //int number1 = 1;
+            //string tset = "hello";
+            //Season currentSeason = Season.Spring;
         }
 
       
@@ -55,13 +67,6 @@ namespace ConsoleEx04
             SetNum(numBtn.Text);
         }
 
-        private void NumButton2_Click(object sender, EventArgs e)
-        {
-            SetNum("2");
-
-        }
-
-
         // 리턴값 필요없음 void
         public void SetNum(string n)
         {
@@ -95,16 +100,47 @@ namespace ConsoleEx04
 
         private void NumAdd_Click(object sender, EventArgs e)
         {
-            // string 데이터 타입을 int형으로 바꾼다
-            int n = int.Parse(NumScreen.Text);
-            Result = Result + n;
 
-            // result의 숫자를 string형태로 바꾼다
-            NumScreen.Text = Result.ToString();
-            // 이제는 새로운 숫자를 입력받아라
-            isNewNum = true;
+            if(isNewNum == false)
+            {
+                // string 데이터 타입을 int형으로 바꾼다
+                int n = int.Parse(NumScreen.Text);
+                if (Opt == Operators.Add)
+                    Result = Add(Result, n);
+                else if(Opt == Operators.Sub)
+                    Result = Sub(Result, n);
+
+                // result의 숫자를 string형태로 바꾼다
+                NumScreen.Text = Result.ToString();
+                // 이제는 새로운 숫자를 입력받아라
+                isNewNum = true;
+            }
+            Button optBtn = (Button)sender;
+            if(optBtn.Text == "+")
+                Opt = Operators.Add;
+            else if (optBtn.Text == "-")
+                Opt = Operators.Sub;
+
         }
-         
+
+        private void NumClear_Click(object sender, EventArgs e)
+        {
+            Result = 0;
+            isNewNum = true;
+            Opt = Operators.Add;
+
+            NumScreen.Text = "0";
+        }
+
+
+        // 변수 = 0
+        // 연산자 = +
+
+        // 숫자 입력
+        // 연산자 버튼 클릭 - 숫자 완성, 변수와 숫자를 저장된 연산자로 연산, 결과를 변수에 저장, 현재 연산자를 저장
+        // 숫자 입력
+        // 연산자 버튼 - 숫자 완성, 변수와 숫자를 저장된 연산자로 연산, 결과를 변수에 저장, 현재 연산자를 저장
+
     }
 
 }
