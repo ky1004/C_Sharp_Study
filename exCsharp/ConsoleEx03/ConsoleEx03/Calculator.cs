@@ -44,14 +44,56 @@ namespace ConsoleEx03
 
         private void NumButton1_Click(object sender, EventArgs e)
         {
-
             SetNum("1");
         }
 
         private void NumButton2_Click(object sender, EventArgs e)
         {
             SetNum("2");
+
         }
+
+        private void NumButton3_Click(object sender, EventArgs e)
+        {
+            SetNum("3");
+
+        }
+
+        private void NumButton4_Click(object sender, EventArgs e)
+        {
+            SetNum("4");
+
+        }
+
+        private void NumButton5_Click(object sender, EventArgs e)
+        {
+            SetNum("5");
+
+        }
+
+        private void NumButton6_Click(object sender, EventArgs e)
+        {
+            SetNum("6");
+
+        }
+
+        private void NumButton7_Click(object sender, EventArgs e)
+        {
+            SetNum("7");
+
+        }
+        private void NumButton8_Click(object sender, EventArgs e)
+        {
+            SetNum("8");
+
+        }
+        private void NumButton9_Click(object sender, EventArgs e)
+        {
+            SetNum("9");
+
+        }
+
+
 
         // 리턴값 필요없음 void
         public void SetNum(string n)
@@ -95,5 +137,6 @@ namespace ConsoleEx03
             // 이제는 새로운 숫자를 입력받아라
             isNewNum = true;
         }
+
     }
 }
