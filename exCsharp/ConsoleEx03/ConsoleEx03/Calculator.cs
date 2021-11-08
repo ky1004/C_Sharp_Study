@@ -12,6 +12,9 @@ namespace ConsoleEx03
 {
     public partial class Calculator : Form
     {
+        public int Result = 0;
+        // 새로운 숫자의 입력의 시작
+        public bool isNewNum = true;
         public Calculator()
         {
             InitializeComponent();
@@ -41,23 +44,56 @@ namespace ConsoleEx03
 
         private void NumButton1_Click(object sender, EventArgs e)
         {
-            // 만약 NumScreen의 텍스트가 0이라면 1로 변경
-            if(NumScreen.Text == "0")
-                NumScreen.Text = "1";
-            else
-                // 기존에 있는 숫자를 버리지 않고 실행
-                NumScreen.Text += "1";
+
+            SetNum("1");
         }
 
         private void NumButton2_Click(object sender, EventArgs e)
         {
-            // 만약 NumScreen의 텍스트가 0이라면 2로 변경
-            if (NumScreen.Text == "0")
-                NumScreen.Text = "2";
-            else
-                // 기존에 있는 숫자를 버리지 않고 실행
-                NumScreen.Text += "2";
+            SetNum("2");
         }
 
+        // 리턴값 필요없음 void
+        public void SetNum(string n)
+        {
+            // 변수 = 0
+
+            // 숫자 입력
+            // 더하기 버튼 - 숫자 완성, 변수와 숫자 합, 결과를 변수에 다시 저장
+            // 반복
+
+            // 첫 시작일 때
+            if (isNewNum)
+            {
+                // 화면에 n을 쏘고 새로운 값이 아님을 표시(false)
+                NumScreen.Text = n;
+                isNewNum = false;
+            }
+            // 만약 화면이 0이라면
+            else if (NumScreen.Text == "0")
+            {
+                // n으로 바꿔라
+                NumScreen.Text = n;
+            }
+            // 화면이 첫시작도 아니고 0도 아니라면
+            else
+            {
+                // 화면에 있는 값과 1을 더해서 쏴라
+                NumScreen.Text += n;
+            }
+
+        }
+
+        private void NumAdd_Click(object sender, EventArgs e)
+        {
+            // string 데이터 타입을 int형으로 바꾼다
+            int n = int.Parse(NumScreen.Text);
+            Result = Result + n;
+
+            // result의 숫자를 string형태로 바꾼다
+            NumScreen.Text = Result.ToString();
+            // 이제는 새로운 숫자를 입력받아라
+            isNewNum = true;
+        }
     }
 }

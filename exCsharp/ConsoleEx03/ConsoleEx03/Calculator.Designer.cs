@@ -32,6 +32,7 @@ namespace ConsoleEx03
             this.NumButton1 = new System.Windows.Forms.Button();
             this.NumButton2 = new System.Windows.Forms.Button();
             this.NumScreen = new System.Windows.Forms.Label();
+            this.NumAdd = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // NumButton1
@@ -66,11 +67,22 @@ namespace ConsoleEx03
             this.NumScreen.Text = "0";
             this.NumScreen.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // NumAdd
+            // 
+            this.NumAdd.Location = new System.Drawing.Point(345, 96);
+            this.NumAdd.Name = "NumAdd";
+            this.NumAdd.Size = new System.Drawing.Size(53, 53);
+            this.NumAdd.TabIndex = 3;
+            this.NumAdd.Text = "+";
+            this.NumAdd.UseVisualStyleBackColor = true;
+            this.NumAdd.Click += new System.EventHandler(this.NumAdd_Click);
+            // 
             // Calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(410, 346);
+            this.Controls.Add(this.NumAdd);
             this.Controls.Add(this.NumScreen);
             this.Controls.Add(this.NumButton2);
             this.Controls.Add(this.NumButton1);
@@ -85,6 +97,7 @@ namespace ConsoleEx03
         private System.Windows.Forms.Button NumButton1;
         private System.Windows.Forms.Button NumButton2;
         private System.Windows.Forms.Label NumScreen;
+        private System.Windows.Forms.Button NumAdd;
     }
 }
 
