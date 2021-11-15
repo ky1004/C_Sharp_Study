@@ -1,0 +1,10 @@
+C:\Users\admin\Desktop\Github\C_Sharp_Study\dataTestsql\testCURD\testCURD\bin\Debug\testCURD.exe.config
+C:\Users\admin\Desktop\Github\C_Sharp_Study\dataTestsql\testCURD\testCURD\bin\Debug\testCURD.exe
+C:\Users\admin\Desktop\Github\C_Sharp_Study\dataTestsql\testCURD\testCURD\bin\Debug\testCURD.pdb
+C:\Users\admin\Desktop\Github\C_Sharp_Study\dataTestsql\testCURD\testCURD\obj\Debug\testCURD.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Github\C_Sharp_Study\dataTestsql\testCURD\testCURD\obj\Debug\testCURD.Form1.resources
+C:\Users\admin\Desktop\Github\C_Sharp_Study\dataTestsql\testCURD\testCURD\obj\Debug\testCURD.Properties.Resources.resources
+C:\Users\admin\Desktop\Github\C_Sharp_Study\dataTestsql\testCURD\testCURD\obj\Debug\testCURD.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\Github\C_Sharp_Study\dataTestsql\testCURD\testCURD\obj\Debug\testCURD.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Github\C_Sharp_Study\dataTestsql\testCURD\testCURD\obj\Debug\testCURD.exe
+C:\Users\admin\Desktop\Github\C_Sharp_Study\dataTestsql\testCURD\testCURD\obj\Debug\testCURD.pdb
