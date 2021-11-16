@@ -24,7 +24,7 @@ namespace testCURD
         private void button1_Click(object sender, EventArgs e)
         {
             // sql연결
-            SqlConnection con = new SqlConnection("Data Source=a;Initial Catalog=curdTest;Integrated Security=True");
+            SqlConnection con = new SqlConnection("Data Source=blank;Initial Catalog=curdTest;Integrated Security=True");
             // db 열기
             con.Open();
 
@@ -47,7 +47,7 @@ namespace testCURD
         /* UPDATE */
         private void button2_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection("Data Source=a;Initial Catalog=curdTest;Integrated Security=True");
+            SqlConnection con = new SqlConnection("Data Source=blank;Initial Catalog=curdTest;Integrated Security=True");
             con.Open();
 
             SqlCommand cmd = new SqlCommand("Update testTable set Name=@Name, Age=@Age where ID=@ID", con);
@@ -64,7 +64,7 @@ namespace testCURD
         /* UPDATE */
         private void button3_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection("Data Source=a;Initial Catalog=curdTest;Integrated Security=True");
+            SqlConnection con = new SqlConnection("Data Source=blank;Initial Catalog=curdTest;Integrated Security=True");
             con.Open();
 
             SqlCommand cmd = new SqlCommand("Delete testTable where ID=@ID", con);
@@ -77,7 +77,7 @@ namespace testCURD
         /* SELECT */
         private void button4_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection("Data Source=a;Initial Catalog=curdTest;Integrated Security=True");
+            SqlConnection con = new SqlConnection("Data Source=blank;Initial Catalog=curdTest;Integrated Security=True");
             con.Open();
 
             SqlCommand cmd = new SqlCommand("Select * from testTable", con);
@@ -86,5 +86,7 @@ namespace testCURD
             da.Fill(dt);
             dataGridView1.DataSource = dt;
         }
+
+   
     }
 }
