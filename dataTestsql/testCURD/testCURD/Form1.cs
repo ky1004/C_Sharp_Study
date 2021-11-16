@@ -14,17 +14,19 @@ namespace testCURD
 {
     public partial class Form1 : Form
     {
+        
+        
+        SqlConnection con = new SqlConnection("Data Source=blank;Initial Catalog=curdTest;Integrated Security=True");
+        
         public Form1()
         {
             InitializeComponent();
         }
 
 
-        /* INSERT */
+        /* INSERT(CREATE) */
         private void button1_Click(object sender, EventArgs e)
         {
-            // sql연결
-            SqlConnection con = new SqlConnection("Data Source=blank;Initial Catalog=curdTest;Integrated Security=True");
             // db 열기
             con.Open();
 
@@ -61,7 +63,7 @@ namespace testCURD
             MessageBox.Show("성공적으로 갱신되었습니다.");
         }
 
-        /* UPDATE */
+        /* DELETE */
         private void button3_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection("Data Source=blank;Initial Catalog=curdTest;Integrated Security=True");
@@ -74,7 +76,7 @@ namespace testCURD
             con.Close();
             MessageBox.Show("성공적으로 삭제되었습니다.");
         }
-        /* SELECT */
+        /* SELECT(READ) */
         private void button4_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection("Data Source=blank;Initial Catalog=curdTest;Integrated Security=True");
@@ -87,6 +89,12 @@ namespace testCURD
             dataGridView1.DataSource = dt;
         }
 
-   
+        // 테이블 클릭 시 텍스트 박스에도 테이블 ROW 정보 조회
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            textBox1.Text = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
+            textBox2.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
+            textBox3.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
+        }
     }
 }

@@ -1,0 +1,10 @@
+C:\Users\admin\Desktop\Github\C_Sharp_Study\dataTestsql\view1\view1\view1\bin\Debug\view1.exe.config
+C:\Users\admin\Desktop\Github\C_Sharp_Study\dataTestsql\view1\view1\view1\bin\Debug\view1.exe
+C:\Users\admin\Desktop\Github\C_Sharp_Study\dataTestsql\view1\view1\view1\bin\Debug\view1.pdb
+C:\Users\admin\Desktop\Github\C_Sharp_Study\dataTestsql\view1\view1\view1\obj\Debug\view1.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Github\C_Sharp_Study\dataTestsql\view1\view1\view1\obj\Debug\view1.Properties.Resources.resources
+C:\Users\admin\Desktop\Github\C_Sharp_Study\dataTestsql\view1\view1\view1\obj\Debug\view1.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\Github\C_Sharp_Study\dataTestsql\view1\view1\view1\obj\Debug\view1.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Github\C_Sharp_Study\dataTestsql\view1\view1\view1\obj\Debug\view1.exe
+C:\Users\admin\Desktop\Github\C_Sharp_Study\dataTestsql\view1\view1\view1\obj\Debug\view1.pdb
+C:\Users\admin\Desktop\Github\C_Sharp_Study\dataTestsql\view1\view1\view1\obj\Debug\view1.CRUDTEST.resources
